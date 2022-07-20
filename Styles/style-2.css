@@ -1,0 +1,206 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* -------------- top section  --------------  */
+
+.top-section{
+    margin-top: 50px;
+    border-radius: 40px;
+    background-color: rgb(9, 9, 27);
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    min-height: 500px;
+}
+
+
+/* -------------- Banner-Text  --------------  */
+
+
+.top-section-details{
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.head-tittle{
+    color: rgb(238, 226, 203);
+    font-size: 45px;
+}
+.Contrary-to-popular{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.watch-live-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(151, 20, 20);
+    color: wheat;
+    border-radius: 5px;
+}
+
+/* -------------- Banner-Picture --------------  */
+
+.top-section-pic{
+    width: 60% ;
+    display: flex;
+}
+.image-section{
+    margin-top: 40px ;
+}
+
+
+/* -------------- second section -------------- */
+
+.second-section{
+    margin-top: 100px;
+    max-width: 1100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* ---------- Button ---------- */
+
+.buttons{
+    background-color: rgb(66, 22, 22);
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 240px;
+}
+
+/* ---------- Match Fixtures ---------- */
+
+.upcoming-match{
+    text-decoration: none;
+    color: rgb(26, 17, 7);
+    padding: 15px 30px;
+    background-color: rgb(212, 209, 209);
+    min-width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.upcoming-match{
+    text-decoration: none;
+    color: rgb(220, 223, 189);
+    padding: 15px 30px;
+    background-color: rgb(201, 3, 3);
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+
+.Blog{
+    text-decoration: none;
+    color: rgb(26, 17, 7);
+    padding: 15px 30px;
+    background-color: rgb(212, 209, 209);
+    min-width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+
+.Fixtures{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fixture{
+    margin-left: 22px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.match-between{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.france-flag, .germany-flag{
+    margin: 10px;
+}
+.vs{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.match-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.GvsF{
+    font-weight: 900;
+}
+.match-time{
+    color: rgb(81, 88, 78);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* ------------- Third Section ------------- */
+
+
+.third-section{
+    max-width: 100%;
+    background-color: rgb(12, 5, 29);
+    height: 380px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1100px;
+}
+.text-goal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal{
+    color: rgb(204, 182, 182);
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: rgb(53, 49, 49);
+}
+.imformation-footer{
+    padding: 50px;
+}
+.indivisual{
+    text-decoration: none;
+    margin-left: 50px;
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+}
+
