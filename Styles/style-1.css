@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     /* font-family: 'Roboto', sans-serif; */
@@ -8,7 +8,7 @@
 
 /* -------------- top section  --------------  */
 
-.top-section{
+.top-section {
     margin-top: 50px;
     border-radius: 40px;
     background-color: rgb(9, 9, 27);
@@ -22,22 +22,25 @@
 /* -------------- Banner-Text  --------------  */
 
 
-.top-section-details{
+.top-section-details {
     width: 40%;
     margin-top: 80px;
     margin-left: 100px;
 }
-.head-tittle{
+
+.head-tittle {
     color: rgb(238, 226, 203);
     font-size: 45px;
 }
-.Contrary-to-popular{
+
+.Contrary-to-popular {
     color: rgb(153, 153, 153);
     font-size: 12px;
     margin-top: 40px;
     margin-bottom: 50px;
 }
-.watch-live-button{
+
+.watch-live-button {
     text-decoration: none;
     padding: 10px 30px;
     background-color: rgb(151, 20, 20);
@@ -47,18 +50,19 @@
 
 /* -------------- Banner-Picture --------------  */
 
-.top-section-pic{
-    width: 60% ;
+.top-section-pic {
+    width: 60%;
     display: flex;
 }
-.image-section{
-    margin-top: 40px ;
+
+.image-section {
+    margin-top: 40px;
 }
 
 
 /* -------------- -------------- second section -------------- -------------- */
 
-.second-section{
+.second-section {
     margin-top: 100px;
     max-width: 1100px;
     display: flex;
@@ -69,7 +73,7 @@
 /* ---------- Buttons--------- */
 
 
-.buttons{
+.buttons {
     background-color: rgb(66, 22, 22);
     border-radius: 5px;
     width: 25%;
@@ -80,7 +84,7 @@
     height: 240px;
 }
 
-.upcoming-match{
+.upcoming-match {
     text-decoration: none;
     color: rgb(26, 17, 7);
     padding: 15px 30px;
@@ -94,7 +98,7 @@
 
 
 
-.Blog{
+.Blog {
     text-decoration: none;
     color: rgb(220, 223, 189);
     padding: 15px 30px;
@@ -110,28 +114,33 @@
 /* ------------------- Blogs ------------------- */
 
 
-.videos{
+.videos {
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.video{
+.video {
     margin-left: 22px;
     border: 1px solid gainsboro;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.thumbnail{
+
+.thumbnail {
     width: 100%;
 }
-.video-img{
+
+.video-img {
     width: 100%;
 }
-.video-text, .time-comment{
+
+.video-text,
+.time-comment {
     padding: 15px;
 }
-.transfer-button{
+
+.transfer-button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid rgb(211, 211, 211);
@@ -140,17 +149,22 @@
     font-weight: 600;
     color: black;
 }
-.video-title{
+
+.video-title {
     margin-top: 15px;
     font-size: 15px;
     font-weight: 800;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
 }
-.fa-clock, .fa-comment-dots{
+
+.fa-clock,
+.fa-comment-dots {
     color: rgb(84, 89, 94);
     margin-right: 5px;
 }
-.time, .comment {
+
+.time,
+.comment {
     font-size: 14px;
     color: rgb(131, 108, 108);
     margin-right: 40px;
@@ -162,60 +176,67 @@
 
 
 
-.third-section{
+.third-section {
     max-width: 100%;
     background-color: rgb(12, 5, 29);
     height: 380px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     max-width: 1100px;
 }
-.text-goal{
+
+.text-goal {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.goal{
+
+.goal {
     color: rgb(204, 182, 182);
     font-size: 35px;
     margin-top: 120px;
     margin-bottom: 50px;
 }
+
 hr {
     width: 100%;
     border: none;
     height: 1px;
     background-color: rgb(53, 49, 49);
 }
-.imformation-footer{
+
+.imformation-footer {
     padding: 50px;
+    display: flex;
 }
-.indivisual{
+
+.indivisual {
     text-decoration: none;
     margin-left: 50px;
     color: grey;
     font-size: 13px;
     font-weight: 700;
+    position: relative;
 }
 
 
-/* ------------------------------------------Media Query ------------------------------------------ */
-   
-                            /* -------------  Mobile ------------- */
+/* ------------------------------------------ Media Query ------------------------------------------ */
 
-@media screen and (max-width: 577px){
+/* -------------  Mobile ------------- */
+
+@media screen and (max-width: 577px) {
 
 
 
     /* ----------Top Section ---------- */
-   
-   
-    .top-section{
+
+
+    .top-section {
         margin-top: 50px;
         border-radius: 10px;
         background-color: rgb(9, 9, 27);
@@ -225,25 +246,29 @@ hr {
         max-width: 1100px;
         min-height: 500px;
     }
-    .top-section-details{
+
+    .top-section-details {
         width: 60%;
         margin-top: 30px;
         display: flex;
         flex-direction: column;
 
     }
-    .head-tittle{
+
+    .head-tittle {
         color: rgb(238, 226, 203);
         font-size: 30px;
         text-align: center;
     }
-    .Contrary-to-popular{
+
+    .Contrary-to-popular {
         color: rgb(153, 153, 153);
         font-size: 12px;
         margin-top: 10px;
         margin-bottom: 20px;
     }
-    .watch-live-button{
+
+    .watch-live-button {
         text-decoration: none;
         padding: 15px 40px;
         background-color: rgb(151, 20, 20);
@@ -251,51 +276,55 @@ hr {
         border-radius: 5px;
         font-size: 25px;
     }
-    .image-section{
-        margin-top: 20px ;
+
+    .image-section {
+        margin-top: 20px;
     }
 
     /* -------------- -------------- second section -------------- -------------- */
 
-    .second-section{
-    margin-top: 40px;
-    max-width: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
+    .second-section {
+        margin-top: 40px;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
     }
 
     /* ---------- Buttons--------- */
 
 
-    .buttons{
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    height: 240px;
+    .buttons {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        height: 240px;
     }
-    .up{
+
+    .up {
         width: 220px;
     }
 
     /* ---------------- Blogs-------------- */
-    .videos{
+    .videos {
         width: 80%;
         display: flex;
         flex-direction: column;
     }
-    .video{
+
+    .video {
         margin-left: 0px;
         border: 1px solid gainsboro;
         border-radius: 10px;
         margin-bottom: 20px;
     }
-    .transfer-button{
+
+    .transfer-button {
         padding: 5px 10px;
         border-radius: 5px;
         border: 1px solid rgb(211, 211, 211);
@@ -304,33 +333,189 @@ hr {
         font-weight: 600;
         color: black;
     }
-    .video-title{
+
+    .video-title {
         margin-top: 15px;
         font-size: 20px;
         font-weight: 800;
-        margin-bottom: 15px ;
+        margin-bottom: 15px;
     }
-    
+
     /* ----------- Footer ----------- */
 
-    .third-section{
+    .third-section {
         max-width: 100%;
         background-color: rgb(12, 5, 29);
         height: 500px;
     }
 
-    .imformation-footer{
+    .imformation-footer {
         padding: 10px;
         display: flex;
         flex-direction: column;
     }
-    .indivisual{
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        margin-left: 1px
+        ;
+    }
+
+    .indivisual {
         text-decoration: none;
         color: grey;
         font-size: 13px;
         font-weight: 700;
         margin-top: 20px;
-        margin-left: 10px ;
+        margin-left: 10px;
+    }
+
+}
+
+
+/* ------------------------------------------Media Query ------------------------------------------ */
+
+/* -------------  Tablet ------------- */
+
+
+
+@media screen and (max-width: 992px) and (min-width: 577px) {
+
+    /* -------------- top section  --------------  */
+
+    .top-section {
+        margin-top: 50px;
+        border-radius: 40px;
+        background-color: rgb(9, 9, 27);
+        display: flex;
+        justify-content: center;
+        max-width: 1100px;
+        min-height: 500px;
+    }
+
+    /* -------------- Banner-Text  --------------  */
+
+
+    .top-section-details {
+        width: 40%;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+
+    .head-tittle {
+        color: rgb(238, 226, 203);
+        font-size: 40px;
+    }
+
+    .Contrary-to-popular {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    /* -------------- Watch Live  --------------  */
+
+    .watch-live-button {
+        width: 100px;
+        text-decoration: none;
+        padding: 15px 25px;
+        font-size: 20px;
+        background-color: rgb(151, 20, 20);
+        color: wheat;
+        border-radius: 5px;
+    }
+
+    /* -------------- -------------- second section -------------- -------------- */
+
+    .second-section {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+    /* ---------- Buttons--------- */
+
+
+    .buttons {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 60px;
+        justify-content: space-between;
+    }
+
+    .upcoming-match {
+        max-width: 200px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .Blog {
+        max-width: 200px;
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+    /* ------------------- Blogs ------------------- */
+
+
+    .videos {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .video {
+        margin-left: 1px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        margin-bottom: 1px;
+    }
+    
+    .transfer-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid rgb(211, 211, 211);
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .video-title {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .time,
+    .comment {
+        font-size: 17px;
+
+    }
+
+    /* -------------- Footer --------------- */
+
+    .imformation-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .indivisual {
+        text-decoration: none;
+        margin-left: 50px;
+        color: grey;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
     }
 
 }
