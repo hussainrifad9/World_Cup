@@ -124,10 +124,10 @@
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .fixture {
-    margin-left: 22px;
     border: 1px solid gainsboro;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -310,16 +310,15 @@ hr {
     /* ---------------- Fixtures-------------- */
 
     .Fixtures {
-        width: 100%;
+        width: 50%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
 
     }
 
     .fixture {
         width: 100%;
-        margin-left: 1px;
         border: 1px solid gainsboro;
         border-radius: 10px;
         margin-bottom: 20px;
