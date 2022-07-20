@@ -332,10 +332,24 @@ hr {
         height: 500px;
     }
 
+    .third-section {
+        max-width: 100%;
+        background-color: rgb(12, 5, 29);
+        height: 500px;
+    }
+
     .imformation-footer {
         padding: 10px;
         display: flex;
         flex-direction: column;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        margin-left: 1px
+        ;
     }
 
     .indivisual {
