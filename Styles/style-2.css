@@ -313,11 +313,13 @@ hr {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
 
     }
 
     .fixture {
-        margin-left: 10px;
+        width: 100%;
+        margin-left: 1px;
         border: 1px solid gainsboro;
         border-radius: 10px;
         margin-bottom: 20px;
